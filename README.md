@@ -2,11 +2,11 @@
 
 <p align="center"><img  src="idea.png"></p>
 
-This package allows general resource routes in laravel by providing resource name, namespace and model bind
+This package allows to generate resource routes in laravel by providing resource name, namespace and model bind.
 
 ## Basic usage
 
-open /routes and fill the form and submit then generated routes will appear above the form
+open /routes and fill the form and submit then generated routes will appear above the form.
 
 ## Installation
 
