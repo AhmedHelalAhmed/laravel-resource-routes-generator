@@ -1,0 +1,28 @@
+{
+  "name": "ahmedhelalahmed/laravel-resource-routes-generator",
+  "description": "helps to generate resource routes in laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmed Helal Ahmed",
+      "email": "ahmed.helal.online@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "AhmedHelalAhmed\\LaravelRoutes\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2.5",
+    "illuminate/support": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AhmedHelalAhmed\\LaravelRoutes\\LaravelRoutesProvider"
+      ]
+    }
+  }
+}
